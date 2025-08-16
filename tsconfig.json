@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "rootDir": "./",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@common/*": ["src/common/*"],
+      "@domain/*": ["src/domain/*"],
+      "@tests/*": ["tests/*"],
+      "@api/*": ["src/api/*"],
+      "@queue/*": ["src/queue/*"]
+    }
+  }
+}
