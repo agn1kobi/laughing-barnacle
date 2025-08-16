@@ -4,6 +4,9 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
+      day: 'monday'
+      time: '07:00'
+      timezone: 'Europe/Amsterdam'
     open-pull-requests-limit: 10
     groups:
       dev-dependencies:
@@ -24,3 +27,6 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
+      day: 'monday'
+      time: '07:00'
+      timezone: 'Europe/Amsterdam'
