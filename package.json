@@ -33,12 +33,12 @@
     "rxjs": "^7.8.2",
     "ts-pattern": "^5.8.0",
     "tsconfig-paths": "^4.2.0",
-    "typeorm": "^0.3.25",
+    "typeorm": "^0.3.26",
     "typescript": "^5.9.2",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.33.0",
+    "@eslint/js": "^9.34.0",
     "@swc/jest": "^0.2.39",
     "@types/express": "^5.0.3",
     "@types/jest": "^30.0.0",
